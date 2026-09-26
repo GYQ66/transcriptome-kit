@@ -1,0 +1,15 @@
+# 数据目录（GMT）不需要 .gitignore 排除——它们是套件功能的一部分。
+# 但 Python 自动生成的索引与系统垃圾文件要排除：
+
+# gmt_lookup.py 的索引生成物（首次运行自动重建）
+skills/msigdb-pathway-gene-lookup/data/.msigdb_index.sqlite3
+
+# R 运行垃圾
+*.Rhistory
+*.RData.tmp
+Rtmp*/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini

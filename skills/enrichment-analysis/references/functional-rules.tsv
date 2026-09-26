@@ -1,0 +1,85 @@
+﻿category	subcategory	pattern
+细胞死亡与自噬	凋亡	apoptosi|apoptotic|programmed cell death|cell death
+细胞死亡与自噬	自噬	autophag
+细胞死亡与自噬	其他死亡方式	necroptosis|ferroptosis|pyroptosis|necroptotic|ferroptotic
+细胞周期与增殖	细胞周期	cell cycle|cell-cycle|mitotic|mitosis|meiosis|m phase|g1 phase|g2 phase|s phase|g2m|e2f
+细胞周期与增殖	染色体与纺锤体	chromosom|spindle|centrosome|kinetochore|centromere|sister chromatid|telomere
+细胞周期与增殖	DNA复制	 dna replication|replication fork|dna strand elongation|dna biosynthetic|dna polymerase
+细胞周期与增殖	增殖	proliferation|cell growth|hyperplasia
+细胞周期与增殖	检查点	checkpoint|cell cycle arrest
+免疫与炎症	干扰素	interferon|ifn
+免疫与炎症	细胞因子与趋化因子	cytokine|chemokine|interleukin|tumor necrosis factor|tnf|lymphotoxin|cytokine production
+免疫与炎症	固有免疫	innate immune|toll-like|nod-like|rig-i|nlr|inflammasome|complement|defense response|antimicrobial|phagocyt|respiratory burst
+免疫与炎症	适应性免疫	t cell|b cell|t lymphocyte|b lymphocyte|lymphocyte|nk cell|natural killer|antigen|mhc|immunoglobulin|t cell receptor|b cell receptor|adaptive immune|th1|th2|th17|regulatory t
+免疫与炎症	炎症与白细胞	inflammat|leukocyte|mast cell|neutrophil|macrophage|monocyte|dendritic cell|eosinophil|basophil|myeloid leukocyte|granulocyte
+免疫与炎症	急性期反应	acute[ -]phase
+免疫与炎症	免疫调节	immune|immun|histocompatibility|cytokine production
+血液与凝血	凝血与血小板	coagulation|platelet|hemostasis|haemostasis|fibrin|thrombin|blood clot|clotting
+细胞外基质与黏附	细胞外基质	extracellular matrix|ecm|collagen|elastin|fibril|basement membrane|proteoglycan|glycosaminoglycan|matrix organization|matrix assembly|encapsulating structure|extracellular structure|tissue remodeling|remodeling|laminin|fibronectin|interstitial matrix|matrisome|chondroitin
+细胞外基质与黏附	基质结合分子	heparin binding|hyaluronic|heparan|sulfated glycosaminoglycan
+细胞外基质与黏附	黏附与整合素	adhesi|integrin|cell-substrate|cell substrat|cell-matrix|cell matrix|focal adhesion|ecm-receptor|ecm receptor
+细胞外基质与黏附	细胞连接	tight junction|adherens junction|gap junction|desmosome|cell junction|junctional
+细胞外基质与黏附	细胞表面分子	cell surface|surface molecule|cam interaction
+细胞骨架与运动	细胞骨架	cytoskeleton|\bactin\b|microtubule|myosin|kinesin|dynein|intermediate filament|keratin|septin|cytokinesis
+细胞骨架与运动	运动与迁移	motility|locomotion|migration|chemotaxis|pseudopodium|lamellipodium|filopodium|microvillus|cili|cilium|flagell|cell projection|leading edge|ruffle|invadopodium
+细胞骨架与运动	肌肉收缩	muscle contraction|sarcomere|muscle filament|myofibril|smooth muscle|cardiac muscle|striated muscle
+代谢与能量	能量代谢	oxidative phosphorylation|electron transport|tca cycle|citrate cycle|glycolysis|gluconeogen|respiratory chain|atp synthesis|energy metabolism
+代谢与能量	脂质与固醇	lipid|fatty acid|cholesterol|sterol|steroid|sphingolipid|glycerolipid|bile acid|retinol|lipoprotein|triglyceride
+代谢与能量	氨基酸与氮	amino acid|nitrogen metabolism|cysteine|methionine|glycine|serine|arginine|proline|tyrosine|tryptophan|glutamate|glutamine|urea cycle|sulfur compound|sulfur metabolism
+代谢与能量	有机酸与羧酸	carboxylic acid|organic acid|monocarboxylic|dicarboxylic
+代谢与能量	核苷酸与辅因子	nucleotide|purine|pyrimidine|folate|one carbon|nicotinamide|riboflavin|thiamine|pyruvate|cofactor
+代谢与能量	糖类与多糖	glycan|glycosphingolipid|carbohydrate|starch|sucrose|pentose|inositol phosphate|glycosylation|oligosaccharide|monosaccharide|disaccharide|sugar binding
+代谢与能量	外源物与药物代谢	drug metabolism|xenobiotic|cytochrome p450|chemical carcinogenesis|metabolism of
+代谢与能量	消化与吸收	digestion|digestive|absorption|nutrient|secretory|pancreatic secretion|gastric|gastrointestinal
+代谢与能量	代谢总论	metabolic process|metabolism|biosynth|catabolic|catabolism|homeostasis of small molecule
+酶活性与催化	水解酶	hydrolase|esterase|peptidase|protease|phosphatase|nuclease|lipase|zymogen
+酶活性与催化	转移酶	transferase|kinase activity|methyltransferase|acetyltransferase|phosphorylase
+酶活性与催化	氧化还原酶	oxidoreductase|dehydrogenase|oxidase|peroxidase|catalase|reductase|catalyt
+酶活性与催化	其他酶类	lyase|isomerase|ligase|enzyme regulator|enzyme activator|enzyme inhibitor|molecular function regulator
+翻译与蛋白稳态	翻译与核糖体	translation|ribosom|trna|aminoacyl|peptide biosynth|protein biosynth
+翻译与蛋白稳态	泛素与蛋白酶体	ubiquitin|proteasome|sumoylation|neddylation|proteolysis|protein catabolic
+翻译与蛋白稳态	折叠与加工	protein folding|chaperone|unfolded protein|protein processing|protein maturation|protein targeting|protein transport|protein localization|glycoprotein biosynth|disulfide|protein stability
+翻译与蛋白稳态	分泌与转运	secretion|secretory pathway|protein secretion|er to golgi|copii
+转录与表观遗传	转录调控	transcription|transcriptional|rna polymerase|promoter|enhancer|transcription factor
+转录与表观遗传	染色质与修饰	chromatin|histone|nucleosome|methylation|acetyl|epigenet|gene silencing|polycomb|trithorax
+转录与表观遗传	RNA加工与非编码	rna processing|rna splicing|spliceosom|mrna|mirna|microrna|rna interference|non-coding rna|post-transcriptional|rna modification|rna degradation
+信号转导	经典信号通路	signaling pathway|signal transduction|signaling|signalling|second messenger|cascade
+信号转导	激酶与磷酸化	mapk|\berk\b|pi3k|akt|mtor|ampk|\bjak\b|stat cascade|\bsrc\b|\babl\b|kinase cascade|phosphatidylinositol
+信号转导	小G蛋白与Rho	\bras\b|\brho\b|\brap1\b|\bral[ab]?\b|small gtpase|gtpase
+信号转导	发育信号通路	wnt|notch|hedgehog|hippo|transforming growth factor|tgf|smad|\bbmp\b
+信号转导	受体与G蛋白	receptor|\bg protein\b|g-protein|nuclear receptor|neuromodulation|calcium signaling
+信号转导	生长因子与细胞因子信号	growth factor|growth arrest specific
+物质运输与离子	离子转运	ion transport|ion channel|calcium|potassium|sodium|chloride|proton|metal ion|zinc|iron homeostasis|aquaporin
+物质运输与离子	膜转运与通道	transport|transporter|channel|atpase|solute carrier|abc transporter|permease|symporter|antiporter
+物质运输与离子	囊泡与内膜运输	endocytosis|exocytosis|vesicle|endosom|lysosom|autophagosome|clathrin|caveola|vesicle-mediated
+物质运输与离子	分泌与排泄	secretion|excretion|efflux|bile secretion|renal|glomerular|filtration|body fluid|fluid level|fluid balance|water homeostasis
+应激与损伤修复	氧化与缺氧应激	stress|hypoxia|response to oxygen|oxygen levels|reactive oxygen|oxidative stress|antioxidant|oxidant|heat shock|unfolded protein response|response to wounding|wound healing|toxic substance|mechanical stimulus|response to drug|response to nutrient|radiation|redox|ultraviolet|uv[ _-]?response
+应激与损伤修复	DNA损伤修复	dna repair|dna damage|mismatch repair|base excision|nucleotide excision|double-strand break|recombination repair
+应激与损伤修复	衰老与死亡抵抗	senescence|aging|ageing|longevity|detoxification|misfolded
+骨骼、牙齿与矿化	骨与软骨	\bbone\b|osteo|ossification|endochondral|chondro|cartilage|skelet
+骨骼、牙齿与矿化	牙齿与矿化	odontogen|\btooth\b|\bteeth\b|dentin|enamel|ameloblast|mineralization|biomineral
+骨骼、牙齿与矿化	骨吸收与重塑	bone resorption|osteoclast|bone remodel
+发育与分化	胚胎与模式形成	embryo|morphogenesis|pattern specification|germ layer|gastrulation|somitogenesis|\baxis\b|notochord|nephrogenesis
+发育与分化	分化与谱系	differentiation|stem cell|lineage|progenitor|endoderm|mesoderm|ectoderm|adipocyte|myoblast|myogenesis|hematopoietic|trophectoderm
+发育与分化	上皮间质转化	epithelial mesenchymal|epithelial-to-mesenchymal|mesenchymal
+发育与分化	血管发生	angiogenesis|vasculature|blood vessel|endothelial cell|vasculogenesis|lymphangiogenesis|vascular process|circulatory
+发育与分化	皮肤与毛发附属器	cornified|hair cycle|molting|skin epidermis|epidermal|keratinocyte
+发育与分化	组织与器官发育	development|organogenesis|organ morphogenesis|regeneration|tissue morphogenesis|appendage|limb
+神经与感觉	神经元与突触	neuron|neural|synap|axon|dendrit|glia|neurogenesis|nerve|innervat
+神经与感觉	神经递质与行为	neurotransmitter|dopamin|serotonin|cholinergic|gaba|glutamatergic|long-term potentiation|long-term depression|addiction|behavior|circadian
+神经与感觉	感觉系统	sensory|olfactory|visual perception|phototransduction|taste|auditory|mechanoreceptor|nocicept
+内分泌与激素	胰岛素与糖稳态	insulin|glucagon|glucose homeostasis|type ii diabetes
+内分泌与激素	类固醇与甲状腺	hormone|thyroid|estrogen|androgen|cortisol|aldosterone|progesterone|endocrine|prolactin|growth hormone|steroid hormone
+内分泌与激素	脂肪因子与食欲	leptin|adipokine|orexin|appetite|feeding behavior|beta[ _-]?cell|islet
+内分泌与激素	性腺与促性腺激素	gonadotropin|gonad
+细胞器与亚细胞定位	膜与细胞表面	plasma membrane|membrane raft|cell surface|basolateral|apical|cell cortex|sarcolemma|basal part|brush border|cell periphery
+细胞器与亚细胞定位	内膜系统	endoplasmic reticulum|golgi|lysosom|vacuol|endosome|secretory granule|coated vesicle|zymogen granule|granule membrane|acrosomal|specific granule
+细胞器与亚细胞定位	线粒体与能量细胞器	mitochondri|peroxisom|respiratory chain complex
+细胞器与亚细胞定位	核与胞质	nucleolus|nuclear speck|nucleoplasm|cytosol|cytoplasm|inclusion body|ribonucleoprotein|chromatoid|germ cell nuage
+细胞器与亚细胞定位	细胞外区域	extracellular region|extracellular space|extracellular exosome|secreted
+稳态与内环境	细胞与组织稳态	homeostasis|homeostatic
+稳态与内环境	内环境与应激平衡	set point|internal environment|milieu
+疾病与感染	病毒与细菌感染	viral|virus|bacteri|hepatitis|influenza|hiv|tuberculosis|parasit|pathogen|toxoplasm|salmonella|shigella|staphylococcus|papillomavirus|epstein-barr|infection|viral life cycle|symbiotic
+疾病与感染	肿瘤	cancer|carcinoma|leukemia|tumor|oncogen|glioma|melanoma|prostate cancer|colorectal|pancreatic cancer|breast cancer|lung cancer
+疾病与感染	代谢与心血管疾病	diabetes|cardiomyopathy|atheroscler|hypertension|arrhythm|metabolic disease|obesity|insulin resistance
+疾病与感染	神经退行与其他疾病	amyloid|prion|parkinson|alzheimer|huntington|autoimmune|lupus|arthritis|disease

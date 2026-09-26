@@ -1,0 +1,5 @@
+{
+  "default_limit": 20,
+  "data_dir": null,
+  "_comment": "data_dir 留空 (=null) 时使用 skill 自带的 data/ 目录，保证装完即用。想改用自己的 GMT 目录，把绝对路径填在这里（或用 --data-dir / 环境变量 MSIGDB_DIR 覆盖，优先级更高）。"
+}

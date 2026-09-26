@@ -1,0 +1,5 @@
+# 统一换行符：脚本类文件必须 LF（CRLF 会让 bash 直接报错），
+# Windows 专属批处理用 CRLF。二进制类型自动检测不受影响。
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
