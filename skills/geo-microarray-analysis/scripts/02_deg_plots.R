@@ -676,7 +676,7 @@ mat <- mat[keep, , drop = FALSE]
 # 热图风格: --hm_style 未指定 (same) 时跟随 --fig_style
 HSTYLE <- tolower(trimws(if (nzchar(OPT$hm_style)) OPT$hm_style else "same"))
 if (HSTYLE == "same") HSTYLE <- STYLE
-if (!HSTYLE %in% c("classic", "nature", "complex", "numbers")) {
+if (!HSTYLE %in% c("classic", "nature", "complex", "numbers", "tile")) {
   msg("  ! 未知 --hm_style=", HSTYLE, "，回退为 ", STYLE)
   HSTYLE <- STYLE
 }
@@ -715,7 +715,7 @@ hm_w <- as.numeric(OPT$hm_width); hm_h <- as.numeric(OPT$hm_height)
 if (nzchar(OPT$hm_width_mm))  hm_w <- as.numeric(OPT$hm_width_mm) / 25.4
 if (nzchar(OPT$hm_height_mm)) hm_h <- as.numeric(OPT$hm_height_mm) / 25.4
 
-if (HSTYLE %in% c("complex", "numbers", "tile")) {
+if (HSTYLE %in% c("complex", "numbers")) {
   # ===== 新风格 1: complex —— ComplexHeatmap 期刊款 =====
   # 顶部分组注释条 (与 classic/nature 的 pheatmap annotation_col 等价) +
   # 发散色带 + 行列自动聚类; 组间 gaps 在 ComplexHeatmap 里由聚类自然呈现。
@@ -789,7 +789,7 @@ if (HSTYLE %in% c("complex", "numbers", "tile")) {
   long$yhm  <- as.integer(long$gene) + 1
   brk_y <- seq(1, length(rownames(mat_sc)), by = 1)
   g_hm <- ggplot2::ggplot(long, ggplot2::aes(x = sample, y = yhm, fill = z)) +
-    ggplot2::geom_tile() +
+    ggplot2::geom_tile(colour = NA) +
     ggplot2::scale_fill_gradient2(
       low = if (STYLE == "nature") "#2166AC" else "#1F6FC3",
       mid = if (STYLE == "nature") "#F7F7F7" else "white",
@@ -813,7 +813,7 @@ if (HSTYLE %in% c("complex", "numbers", "tile")) {
     data.frame(sample = unique(long$sample),
                grp = long$group[match(unique(long$sample), long$sample)]),
     ggplot2::aes(x = sample, y = 1, fill = grp)) +
-    ggplot2::geom_tile() +
+    ggplot2::geom_tile(colour = NA) +
     ggplot2::scale_fill_manual(values = gp_col, name = "Group") +
     ggplot2::scale_x_discrete(expand = c(0, 0)) +
     ggplot2::scale_y_continuous(expand = c(0, 0)) +
