@@ -447,6 +447,13 @@ if (VSTYLE == "enhanced" && !requireNamespace("EnhancedVolcano", quietly = TRUE)
   msg("  ! --vol_style=enhanced 需 EnhancedVolcano 包 (BiocManager::install('EnhancedVolcano'))，未安装，回退为 ", STYLE)
   VSTYLE <- STYLE
 }
+# ENV-1: EnhancedVolcano 1.28.x 与 ggplot2 >= 4.0 不兼容 (上游问题):
+# 数据点全部挤在 x≈0、y 轴被截断, 与真实分布完全不符; 不降级 ggplot2, 仅提示绕行
+if (VSTYLE == "enhanced" && requireNamespace("EnhancedVolcano", quietly = TRUE) &&
+    utils::packageVersion("ggplot2") >= "4.0") {
+  msg("  ! EnhancedVolcano 与 ggplot2 >= 4.0 存在兼容性问题 (上游): 出图可能为空/坐标异常;")
+  msg("    建议改用 classic / gradient / rainbow / tophits, 详见 BUG记录_20260926.md ENV-1")
+}
 msg("  绘图风格: fig=", STYLE, " / volcano=", VSTYLE)
 TOPN_LAB <- suppressWarnings(as.integer(OPT$top_n)); if (is.na(TOPN_LAB) || TOPN_LAB < 1) TOPN_LAB <- 10L
 

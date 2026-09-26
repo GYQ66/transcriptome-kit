@@ -871,6 +871,7 @@ PCA 一步会从十几秒退化到数分钟（实测踩过，症状与 7.1 混�
 | `object 'XXX' not found`（makeContrasts 处） | 分组名未 `make.names` 清洗，见 4.2 |
 | `row scaling: sd = 0` | 见 5.2 |
 | 火山图一片灰 | 阈值太严或数据没归一化，先看 `_boxplot.pdf` |
+| enhanced 火山图点全挤在 x≈0、y 轴被截到 10 | EnhancedVolcano 1.28.x 与 ggplot2 >= 4.0 不兼容（上游问题，与脚本无关），换 classic / gradient / rainbow / tophits，见根目录 `BUG记录_20260926.md` ENV-1 |
 | 输出 PDF 是空白 | 见 1.5.4，必须用设备包裹而非 `ggsave` |
 | 03 步卡在 `[7/8] 生成 QC 图表`、产物为空、CPU 只占 ~40% | `prcomp` 求全部奇异向量太慢，见 7.1；装 `RSpectra` |
 | `The covariate is confounded with batch!`（03 步） | 批次与分组混杂，见 7.3 |
