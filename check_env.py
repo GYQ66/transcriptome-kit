@@ -76,7 +76,6 @@ def detect_r() -> str | None:
                 f"{drive}:/Program Files/R/R-*/bin/x64/Rscript.exe",
                 f"{drive}:/Program Files/R/R-*/bin/Rscript.exe",
                 f"{drive}:/R/*/R/bin/x64/Rscript.exe",
-                f"{drive}:/R/R_down/R/bin/x64/Rscript.exe",
                 f"{drive}:/Users/*/AppData/Local/Programs/R/R-*/bin/x64/Rscript.exe",
             ]
     elif platform.system() == "Darwin":

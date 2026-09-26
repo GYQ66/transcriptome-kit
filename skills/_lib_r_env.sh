@@ -55,7 +55,6 @@ find_rscript() {
       "/c/Program[ ]Files/R/R-*/bin/Rscript.exe" \
       "/c/Program[ ]Files[ (x86)]/R/R-*/bin/x64/Rscript.exe" \
       "/d/R/*/R/bin/x64/Rscript.exe" \
-      "/d/R/R_down/R/bin/x64/Rscript.exe" \
       "/c/Users/*/AppData/Local/Programs/R/R-*/bin/x64/Rscript.exe" ; do
     for found in $pattern; do
       if [ -f "$found" ]; then printf '%s' "$found"; return 0; fi
