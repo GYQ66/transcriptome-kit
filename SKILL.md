@@ -24,7 +24,8 @@ description: 转录组 bulk RNA 全流程分析套件的总控入口：把 GEO �
 
 ```
 GSE 原始文件（family.soft.gz + series_matrix.txt.gz）
-   │
+   │   ★ 推荐让用户提前从 NCBI 下载好这两个文件再开工：AI 会话内直连
+   │     NCBI 很慢且易超时；文件就位后整条流水线离线可跑（直链格式见 README）
    ▼
 ① geo-microarray-analysis 01_geo_normalize.R     标准化 + 分组候选报告
    │   ★ 停：把分组候选表交给用户，等用户拍板分组与对比方向

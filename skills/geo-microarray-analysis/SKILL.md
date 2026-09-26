@@ -108,6 +108,15 @@ agent_created: true
 用户需要提供三个信息：GEO 号、`GSE*_family.soft.gz`、`GSE*_series_matrix.txt.gz`。
 两个文件都给时脚本**完全不联网**。
 
+> **获取文件的推荐方式**：让用户提前把两个文件下载到本地再开工——
+> AI 会话内直连 NCBI 下载很慢且易超时。直链格式（`GSE62nnn` = 编号去掉
+> 末 3 位，剩余数字补 `nnn`）：
+>
+> - `https://ftp.ncbi.nlm.nih.gov/geo/series/GSE62nnn/GSE62452/soft/GSE62452_family.soft.gz`
+> - `https://ftp.ncbi.nlm.nih.gov/geo/series/GSE62nnn/GSE62452/matrix/GSE62452_series_matrix.txt.gz`
+>
+> 用户没下载时，把上面直链给用户让其自行下载，而不是在会话里现下。
+
 ```bash
 SK="<TOOLKIT>/skills/geo-microarray-analysis/scripts"
 bash "$SK/run_geo.sh" "$SK/01_geo_normalize.R" \

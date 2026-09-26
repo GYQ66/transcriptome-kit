@@ -52,6 +52,35 @@ bash skills/venn-diagram/scripts/run_venn.sh \
 python skills/msigdb-pathway-gene-lookup/scripts/gmt_lookup.py find "TNF signaling"
 ```
 
+## 准备 GEO 数据（推荐：先下载好，再丢给 AI）
+
+geo 技能每分析一个 GSE 编号，需要两个原始文件：
+
+| 文件 | 内容 | 用途 |
+|---|---|---|
+| `GSE{编号}_series_matrix.txt.gz` | 表达矩阵 + 样本信息 | 标准化、差异分析 |
+| `GSE{编号}_family.soft.gz` | 样本临床元信息 | 分组、注释 |
+
+**强烈推荐：先自己把这两个文件下载到本地，再把本地路径丢给 AI 分析。**
+AI 的运行环境直连 NCBI 的速度往往很慢也不稳定，让它在会话里现下载，
+一个数据集可能要等很久甚至超时失败；提前下载好之后，整条流水线
+全程离线可跑，又快又稳。
+
+直链格式（以 GSE62452 为例；`GSE62nnn` 的规则：编号去掉末 3 位，
+剩余数字原样保留再补 `nnn`）：
+
+```
+https://ftp.ncbi.nlm.nih.gov/geo/series/GSE62nnn/GSE62452/soft/GSE62452_family.soft.gz
+https://ftp.ncbi.nlm.nih.gov/geo/series/GSE62nnn/GSE62452/matrix/GSE62452_series_matrix.txt.gz
+```
+
+不想算规律也可以直接打开
+[GEO 编号页](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62452)
+（把 acc= 换成你的编号），点页面下方的 **Download family** 下载
+`_family.soft.gz`，在 **Download data files** 里选 **Series Matrix File(s)**
+下载 `_series_matrix.txt.gz`。
+下载完成后对 AI 说：「用这两个本地文件做 GSE62452 差异分析」即可。
+
 ## 环境要求
 
 | 组件 | 版本 | 用于 |
